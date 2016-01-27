@@ -1,0 +1,56 @@
+/*
+Theme Name: Porto
+Theme URI: http://newsmartwave.net/wordpress/porto
+Author: SW-THEMES
+Author URI: http://newsmartwave.net/
+Description: Porto Responsive Wordpress + Woocommerce Theme.
+Version: 2.7.2
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: porto
+
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+.bypostauthor {}
+
+body.blog-1 .widget_wysija_cont .wysija-submit {
+    display: inline-block;
+    margin-left: -6px;
+    background-color: #fff;
+    height: 32px;
+    vertical-align: bottom;
+    border: 1px solid #ccc;
+    color: #333;
+    border-radius: 0 3px 3px 0;
+}
+body.blog-1 .widget_wysija_cont .wysija-submit:hover,
+body.blog-1 .widget_wysija_cont .wysija-submit:active {
+    background-color: #fff;
+    border-color: #ccc;
+}
+body.blog-1 #footer .widget p.wysija-paragraph {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    margin-top: 20px;
+    width: calc(100% - 40px);
+}
+body.blog-1 .widget.widget_wysija .wysija-input {
+    max-width: none;
+    font-size: 13px;
+    height: 32px;
+}
+
+body.blog-1.dark .widget_wysija_cont .wysija-submit {
+    background-color: #282d36;
+    border-color: #333333;
+    color: #777777
+}
+
+body.boxed .ads-container-full.vc_row {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}

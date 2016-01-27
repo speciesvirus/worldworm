@@ -14,46 +14,45 @@
     <title>world worm</title>
 
 
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/validationEngine.jquery.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/styles.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/frontend.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/yith_wcas_ajax_search.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/prettyPhoto.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/jquery.selectBox.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/style.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/js_composer.min.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/masterslider.main.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/custom.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/Defaults.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/ultimate.min.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/icons.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/bootstrap_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/plugins_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/theme_elements_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/theme_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/theme_shop_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/skin_22.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/porto/style.css") }}">
 
-    <link rel="alternate" type="application/rss+xml" title="Porto Wordpress » Feed" href="http://newsmartwave.net/wordpress/porto/demo8/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Porto Wordpress » Comments Feed" href="http://newsmartwave.net/wordpress/porto/demo8/comments/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Porto Wordpress » Home Shop 8 Comments Feed" href="http://newsmartwave.net/wordpress/porto/demo8/home-version-8/feed/">
-    <link rel="stylesheet" id="validate-engine-css-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css" type="text/css" media="all">
-    <link rel="stylesheet" id="contact-form-7-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
-    <link rel="stylesheet" id="yith-wcan-frontend-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/yith-woocommerce-ajax-navigation/assets/css/frontend.css" type="text/css" media="all">
-    <link rel="stylesheet" id="yith_wcas_frontend-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/yith-woocommerce-ajax-search/assets/css/yith_wcas_ajax_search.css" type="text/css" media="all">
-    <link rel="stylesheet" id="woocommerce_prettyPhoto_css-css" href="//newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css" type="text/css" media="all">
-    <link rel="stylesheet" id="jquery-selectBox-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css" type="text/css" media="all">
-    <link rel="stylesheet" id="yith-wcwl-main-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" id="js_composer_front-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/js_composer/assets/css/js_composer.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="ms-main-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css" type="text/css" media="all">
-    <link rel="stylesheet" id="ms-custom-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/uploads/sites/22/masterslider/custom.css" type="text/css" media="all">
-    <link rel="stylesheet" id="bsf-Defaults-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/uploads/sites/22/smile_fonts/Defaults/Defaults.css" type="text/css" media="all">
-    <link rel="stylesheet" id="ultimate-style-min-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="ult-icons-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/Ultimate_VC_Addons/modules/../assets/css/icons.css" type="text/css" media="">
-    <link rel="stylesheet" id="porto-bootstrap-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/bootstrap_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-plugins-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/plugins_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-theme-elements-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/theme_elements_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-theme-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/theme_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-theme-shop-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/theme_shop_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-skin-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/skin_22.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-style-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/style.css" type="text/css" media="all">
+
     <link rel="stylesheet" id="porto-google-fonts-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CShadows+Into+Light%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7C" type="text/css" media="all">
+
     <!--[if lt IE 10]>
     <link rel='stylesheet' id='porto-ie-css'  href='http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/css/ie.css' type='text/css' media='all' />
     <![endif]-->
-    <link rel="stylesheet" id="porto-style-switcher-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/style-switcher/style-switcher.css" type="text/css" media="all">
-    <link rel="stylesheet" id="porto-style-colorpicker-css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/style-switcher/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" type="text/css" media="all">
+
 
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1425551598098{margin-top: -20px !important;}</style><noscript>&lt;style type="text/css"&gt; .wpb_animate_when_almost_visible { opacity: 1; }&lt;/style&gt;</noscript><link rel="stylesheet" id="ms-fonts" href="//fonts.googleapis.com/css?family=Open+Sans:300,600,700,regular" type="text/css" media="all"><style>/** Ultimate: Media Responsive **/ #Info-box-wrap-7484 .aio-icon-title{font-size:15px;}#Info-box-wrap-7484 .aio-icon-description{font-size:12px;}#Info-box-wrap-9231 .aio-icon-title{font-size:15px;}#Info-box-wrap-9231 .aio-icon-description{font-size:12px;}#Info-box-wrap-2723 .aio-icon-title{font-size:15px;}#Info-box-wrap-2723 .aio-icon-description{font-size:12px;}#interactive-banner-wrap-6745 .ult-new-ib-title{font-size:14px;}#interactive-banner-wrap-5385 .ult-new-ib-title{font-size:14px;}#interactive-banner-wrap-2183 .ult-new-ib-title{font-size:14px;}@media (max-width: 1199px) { }@media (max-width: 991px)  { }@media (max-width: 767px)  { }@media (max-width: 479px)  { }/** Ultimate: Media Responsive - **/</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style><link rel="stylesheet/less" href="http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/less/switcher_270.less">
     <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/default.css") }}">
     <link rel="stylesheet" type="text/css" href="{{ asset("components/font-awesome/css/font-awesome.min.css") }}">
 
+    <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/index.css") }}">
+
 </head>
 <body class="home page page-id-1770 page-template-default full demo_8 blog-22  _masterslider _msp_version_2.26.0 wpb-js-composer js-comp-ver-4.9.2 vc_responsive"><div id="yith-wcwl-popup-message" style="display: none;"><div id="yith-wcwl-message"></div></div>
 
 <div class="page-wrapper"><!-- page wrapper -->
-
 
     <div class="header-wrapper clearfix"><!-- header wrapper -->
 
@@ -61,19 +60,31 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <div class="switcher-wrap"><ul id="menu-currency-switcher" class="currency-switcher mega-menu show-arrow effect-down subeffect-fadein-left"><li id="nav-menu-item-2218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has-sub narrow "><a href="#" class="">GBP</a>
-                                    <div class="popup" style="display: block;"><div class="inner" style=""><ul class="sub-menu">
+                        <div class="switcher-wrap">
+                            <ul id="menu-currency-switcher" class="currency-switcher mega-menu show-arrow effect-down subeffect-fadein-left"><li id="nav-menu-item-2218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has-sub narrow "><a href="#" class="">GBP</a>
+                                    <div class="popup" style="display: block;">
+                                        <div class="inner" style="">
+                                            <ul class="sub-menu">
                                                 <li id="nav-menu-item-2216" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="#" class="">USD</a></li>
                                                 <li id="nav-menu-item-2217" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="#" class="">EUR</a></li>
-                                            </ul></div></div>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
-                            </ul><span class="gap switcher-gap">|</span><ul id="menu-view-switcher" class="view-switcher mega-menu show-arrow effect-down subeffect-fadein-left"><li id="nav-menu-item-2220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has-sub narrow "><a href="#" class="">English</a>
-                                    <div class="popup" style="display: block;"><div class="inner" style=""><ul class="sub-menu">
+                            </ul>
+                            <span class="gap switcher-gap">|</span>
+                            <ul id="menu-view-switcher" class="view-switcher mega-menu show-arrow effect-down subeffect-fadein-left"><li id="nav-menu-item-2220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has-sub narrow "><a href="#" class="">English</a>
+                                    <div class="popup" style="display: block;">
+                                        <div class="inner" style="">
+                                            <ul class="sub-menu">
                                                 <li id="nav-menu-item-2221" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="#" class="">French</a></li>
                                                 <li id="nav-menu-item-2222" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="#" class="">German</a></li>
-                                            </ul></div></div>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
-                            </ul></div>            </div>
+                            </ul>
+                        </div>            </div>
                     <div class="header-right">
                         <span class="welcome-msg">WELCOME TO PORTO WORDPRESS</span><span class="gap">|</span><ul id="menu-top-navigation" class="top-links mega-menu show-arrow effect-down subeffect-fadein-left"><li id="nav-menu-item-2223" class="menu-item menu-item-type-post_type menu-item-object-page  narrow "><a href="http://newsmartwave.net/wordpress/porto/demo8/my-account/" class="">My Account</a></li>
                             <li id="nav-menu-item-2224" class="menu-item menu-item-type-post_type menu-item-object-page  narrow "><a href="http://newsmartwave.net/wordpress/porto/demo8/wishlist/" class="">My Wishlist</a></li>
@@ -86,10 +97,11 @@
 
                 <div class="container">
                     <div class="header-left">
+
                         <div class="searchform-popup">
                             <a class="search-toggle"><i class="fa fa-search"></i></a>
 
-                            <form role="search" method="get" id="yith-ajaxsearchform" action="http://newsmartwave.net/wordpress/porto/demo8/" class="yith-ajaxsearchform-container yith-ajaxsearchform-container1192818741 searchform searchform-cats">
+                            <form role="search" method="get" id="yith-ajaxsearchform" action="http://newsmartwave.net/wordpress/porto/demo8/" class="yith-ajaxsearchform-container yith-ajaxsearchform-container945982881 searchform searchform-cats">
                                 <fieldset>
                                     <span class="text"><input name="s" id="yith-s" class="yith-s" type="text" value="" placeholder="Search…" autocomplete="off"></span>
                                     <select name="product_cat" id="product_cat" class="cat">
@@ -117,81 +129,8 @@
                                 </fieldset>
                                 <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></form>
 
-                            <script type="text/javascript">
-                                jQuery(function($){
-                                    var search_loader_url = 'http://newsmartwave.net/wordpress/porto/demo8/wp-content/themes/porto/images/ajax-loader@2x.gif';
-                                    var ajax_url = '/wordpress/porto/demo8/wp-admin/admin-ajax.php?';
 
-                                    var yith_search = $('.yith-ajaxsearchform-container1192818741 .yith-s').yithautocomplete({
-                                        minChars: 3,
-                                        appendTo: '.yith-ajaxsearchform-container1192818741',
-                                        serviceUrl: function() {
-                                            var val = $('.yith-ajaxsearchform-container1192818741 .cat').val();
-                                            if (val != '0')
-                                                return ajax_url + 'action=yith_ajax_search_products' + '&product_cat=' + val;
-                                            else
-                                                return ajax_url + 'action=yith_ajax_search_products';
-                                        },
-                                        onSearchStart: function(){
-                                            $(this).css('background', 'url('+search_loader_url+') no-repeat 97% center');
-                                            $(this).css('background-size', '16px 16px');
-                                        },
-                                        onSearchComplete: function(){
-                                            $(this).css('background', 'transparent');
-                                        },
-                                        onSelect: function (suggestion) {
-                                            if( suggestion.id != -1 ) {
-                                                window.location.href = suggestion.url;
-                                            }
-                                        },
-                                        formatResult: function (suggestion, currentValue) {
-                                            var pattern = '(' + $.YithAutocomplete.utils.escapeRegExChars(currentValue) + ')';
-                                            var html = '';
-
-                                            if ( typeof suggestion.img !== 'undefined' ) {
-                                                html += suggestion.img;
-                                            }
-
-                                            html += '<div class="yith_wcas_result_content"><div class="title">';
-                                            html += suggestion.value.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>');
-                                            html += '</div>';
-
-                                            if ( typeof suggestion.div_badge_open !== 'undefined' ) {
-                                                html += suggestion.div_badge_open;
-                                            }
-
-                                            if ( typeof suggestion.on_sale !== 'undefined' ) {
-                                                html += suggestion.on_sale;
-                                            }
-
-                                            if ( typeof suggestion.featured !== 'undefined' ) {
-                                                html += suggestion.featured;
-                                            }
-
-                                            if ( typeof suggestion.div_badge_close !== 'undefined' ) {
-                                                html += suggestion.div_badge_close;
-                                            }
-
-                                            if ( typeof suggestion.price !== 'undefined' && suggestion.price != '' ) {
-                                                html += ' ' + suggestion.price;
-                                            }
-
-                                            if ( typeof suggestion.excerpt !== 'undefined' ) {
-                                                html += ' ' +  suggestion.excerpt.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>');
-                                            }
-
-                                            html += '</div>';
-
-
-                                            return html;
-                                        }
-                                    });
-
-                                    $('.yith-ajaxsearchform-container1192818741 .cat').on('change', function() {
-                                        $('.yith-ajaxsearchform-container1192818741 .yith-s').focus();
-                                    });
-                                });
-                            </script>    </div>
+                        </div>
                         <a class="mobile-toggle"><i class="fa fa-reorder"></i></a>
                     </div>
                     <div class="header-center">
@@ -327,7 +266,7 @@
                                                     <li id="nav-menu-item-1698" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=4" class="">4 Columns</a></li>
                                                     <li id="nav-menu-item-1699" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=5" class="">5 Columns</a></li>
                                                     <li id="nav-menu-item-1700" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=6" class="">6 Columns</a></li>
-                                                    <li id="nav-menu-item-1701" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=7" class="">7 Columns</a></li>
+                                                    <li id="nav-menu-item-1701" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=7" class="">7 Columns<span class="tip" style="background:#eb2771;"><span class="tip-arrow" style="color:#eb2771;"></span>HOT</span></a></li>
                                                     <li id="nav-menu-item-1702" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://newsmartwave.net/wordpress/porto/demo8/product-category/dress/?product_cols=8" class="">8 Columns<span class="tip" style="color:#ffffff;background:#0cc485;"><span class="tip-arrow" style="color:#0cc485;"></span>NEW</span></a></li>
                                                 </ul>
                                             </li>
@@ -473,7 +412,8 @@
                                                     <li id="nav-menu-item-3593" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://newsmartwave.net/wordpress/porto/shortcodes/sticky-elements/" class="">Sticky Elements</a></li>
                                                 </ul>
                                             </li>
-                                        </ul></div></div>
+                                        </ul>
+                                    </div></div>
                             </li>
                             <li id="nav-menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub narrow ">
                                 <a href="http://newsmartwave.net/wordpress/porto/demo8/blog/" class="">Blog</a>
