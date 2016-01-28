@@ -1,4 +1,5 @@
-<html lang="en-US"><head>
+<html lang="en-US" class="yes-js js_active js js no-touch csstransforms3d csstransitions js_active  vc_desktop  vc_transform  vc_transform">
+<head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -49,8 +50,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{ asset("components/main/css/index.css") }}">
 
+    <script type="text/javascript" src="{{ asset("components/jquery/dist/jquery.min.js") }}"></script>
+    <script type="text/javascript" src="{{ asset("components/main/js/script.js") }}"></script>
 </head>
-<body class="home page page-id-1770 page-template-default full demo_8 blog-22  _masterslider _msp_version_2.26.0 wpb-js-composer js-comp-ver-4.9.2 vc_responsive"><div id="yith-wcwl-popup-message" style="display: none;"><div id="yith-wcwl-message"></div></div>
+<body class=""><div id="yith-wcwl-popup-message" style="display: none;"><div id="yith-wcwl-message"></div></div>
 
 <div class="page-wrapper"><!-- page wrapper -->
 
@@ -189,7 +192,7 @@
                             <li id="nav-menu-item-2299" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children active has-sub narrow pos-left">
                                 <a href="http://newsmartwave.net/wordpress/porto/demo8" class=" current">Home</a>
 
-                                <div class="popup" style="display: block;">
+                                <div class="popup">
                                     <div class="inner" style="">
                                         <ul class="sub-menu">
                                             <li id="nav-menu-item-2242" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="http://newsmartwave.net/wordpress/porto/#demos" class="">Overview</a></li>
@@ -257,7 +260,7 @@
                             </li>
                             <li id="nav-menu-item-1552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub wide  col-4">
                                 <a href="http://newsmartwave.net/wordpress/porto/demo8/shop/" class="">Shop<span class="tip" style=""><span class="tip-arrow" style=""></span>NEW</span></a>
-                                <div class="popup" style="display: block; left: -157.594px; right: auto;"><div class="inner" style=""><ul class="sub-menu" style="width: 1110px;">
+                                <div class="popup"><div class="inner" style=""><ul class="sub-menu" style="width: 1110px;">
                                             <li id="nav-menu-item-1662" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  sub" data-cols="1" style="width: 25%;">
                                                 <h5>Category Variation</h5>
                                                 <ul class="sub-menu">
@@ -1670,7 +1673,7 @@
             <li id="accordion-menu-item-2224" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://newsmartwave.net/wordpress/porto/demo8/wishlist/" class="">My Wishlist</a></li>
             <li id="accordion-menu-item-2304" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://newsmartwave.net/wordpress/porto/demo8/about-us/" class="">About Us</a></li>
         </ul></div></div>
-<a href="#" id="nav-panel-close"><i class="fa fa-close"></i></a>
+<a href="#" id="nav-panel-close"> <i class="fa fa-close"></i> </a>
 
 
 
