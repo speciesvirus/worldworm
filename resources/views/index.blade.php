@@ -2598,4 +2598,5 @@
 
         </div><!-- end main -->
 
+    </div>
 @stop
